@@ -1,0 +1,240 @@
+/* Navigation Bar */
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background-color: #f0f7fa;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+#nav {
+  background-color: #f0f7fa;
+  color: #088b60;
+  text-transform: uppercase;
+  padding-right: 9em;
+  margin-bottom: 3em;
+  min-height: 100px;
+  font-size: 20px;
+}
+#nav-list li a {
+  color: #252c31;
+}
+#nav-list li a:hover {
+  color: #088b60;
+}
+.line {
+  padding: 0.6em;
+}
+.line::after {
+  content: "";
+  background: #0c7a15;
+  display: block;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s;
+}
+.line:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/* Profile */
+#m {
+  /* background: yellow; */
+  margin-bottom: 5em;
+  padding-top: 2em;
+}
+.rev {
+  flex-direction: row-reverse;
+}
+/* Image */
+.profile-img img {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+.profile-body {
+  text-align: center;
+  margin-right: 85px;
+}
+.profile-title {
+  font-size: 26px;
+  margin: 20px 0px 10px 0px;
+}
+.profile-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #727777;
+}
+
+.profile-link a {
+  font-size: 21px;
+  color: #0c7a15;
+  text-decoration: none;
+}
+.personal {
+  padding-left: 85px;
+  /* background: white; */
+}
+.my {
+  /* background: blue; */
+  padding-left: 85px;
+}
+.personal-text a {
+  color: #088b60;
+  text-decoration: none;
+}
+.education div span {
+  color: #727777;
+}
+
+/* Carousel */
+.carousel {
+  margin-bottom: 3em;
+}
+#carousel-slider {
+  height: 325px;
+  min-height: 325px;
+  background-color: rgb(64, 64, 64);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/images/flower.jpg");
+}
+#text-center {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+#text-left {
+  text-align: left;
+}
+#text-right {
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+/* Section */
+.section-title {
+  padding: 0px 0 20px 0;
+  margin: 1em 0;
+  text-align: center;
+}
+.section-title h1 {
+  font-size: 48px;
+}
+/* Blog And Tasks */
+
+.blog-title {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.task-title {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.blog a {
+  text-decoration: none;
+  color: black;
+}
+.blog h4 {
+  font-size: 26px;
+}
+.blog h4 a:hover {
+  color: #088b60;
+}
+.blog span a {
+  font-size: 14px;
+  color: #727777;
+}
+.blog span a:hover {
+  text-decoration: underline;
+  color: #06805e;
+}
+.time {
+  font-size: 14px;
+  color: #727777;
+}
+.link-categories {
+  font-size: 14px;
+  padding-left: 1em;
+}
+.task a {
+  color: black;
+  text-decoration: none;
+}
+.task h4 {
+  font-size: 25px;
+}
+.task h4 a:hover {
+  text-decoration: none;
+  color: #088b60;
+}
+.task span a {
+  font-size: 14px;
+  color: #727777;
+}
+.task span a:hover {
+  color: #06805e;
+  text-decoration: underline;
+}
+.place {
+  font-size: 16px;
+  color: #727777;
+}
+.btn-adds {
+  margin-top: 1em;
+}
+.btn-adds a {
+  color: #06805e;
+  font-weight: lora;
+  font-style: italic;
+  margin-right: 8px;
+}
+.btn-outline-secondary {
+  border-radius: 0;
+  border: 1px solid transparent;
+  border-color: #06805e;
+}
+.btn-outline-secondary:hover {
+  background: #06805e;
+}
+.btn-adds a {
+  display: inline-block;
+  text-align: center;
+}
+.see-all {
+  font-size: 21px;
+  margin: 3em 0;
+}
+.see-all a {
+  color: #0c7a15;
+}
+.see-all a:hover {
+  color: #175352;
+  text-decoration: underline;
+}
+
+/* Footer */
+.licensed {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 6em;
+}
+.licensed a {
+  color: #088b60;
+  text-decoration: none;
+}
+.licensed a:hover {
+  text-decoration: underline;
+  color: #175352;
+}
+.footer-text {
+  text-align: center;
+}
+.footer-text a {
+  color: #06805e;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  color: #175352;
+  text-decoration: underline;
+}
