@@ -5,202 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="icon" href="./assets/images/Xbox A_50px.png" type="image/png">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/CSS/Style.css">
 
 </head>
-<body  bgcolor="FBF9F4" link="#ff0000" alink="#ff0000" vlink="#ff0000" align="justify">
+<body>
 <!-- This is the navigation bar -->
-    <table cellpacing="150px">
-        <tr>
-            <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for=""><a href="index.html">ABENEZER FEKADU</a></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </td>
-            <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;<Label><a href="blog.html">BLOG</a></Label>&nbsp; &nbsp;
-                <label for=""><a href="task.html">TASKS</a></label>&nbsp; &nbsp;
-                <label for=""></label><a href="gallery.html">GALLERY</a>&nbsp; &nbsp;
-                <label for=""></label><a href="contact.html">ABOUT / CONTACTS</a>&nbsp; &nbsp;
-                <a href="https://www.google.com/"><img src="./assets/images/Search_21px.png" alt="search icon"></a>&nbsp; &nbsp;
-                <a href=""><img src="./assets/images/Moon Symbol_21px.png" alt="moon icon"></a>&nbsp; &nbsp;
-                <br><br>
-                <hr color="red">
-            </td>
-        </tr>
-    </table>
-
+<nav class="navbar navbar-expand-lg sticky-top" id="nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Abenezer Fekadu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto" id="nav-list">
+                <li class="line nav-item active">
+                    <a class="nav-link active" href="blog.html">BLOG</a>
+                </li>
+                <li class=" line nav-item">
+                    <a class="nav-link" href="task.html">TASKS</a>
+                </li>
+                <li class=" line nav-item ">
+                    <a class="nav-link" href="gallery.html">GALLERY</a>
+                </li>
+                <li class="line nav-item">
+                    <a class="nav-link" href="contact.html">ABOUT / CONTACTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <!-- The image in about me -->
-    <table background="./assets/images/flower.jpg" width="100%" height="150px">
-        <tr>
-            <td>
-                <h2 align="center">About me</h2>
-            </td>
-        </tr>
-    </table>
-
+<div class="parrallex">
+    <div class="about-container">
+        <span class="text-about">
+        About me
+        </span>
+    </div>
+</div>
 <!-- The story telling table of about me -->
-    <table celspacing="20px">
-        <tr>
-            <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </td>
-                <td>
-                    <p >I am originally from small town called Balile, Eastern Hararge Ethiopia, and am a proud member of solvers group from second year students. After highschool, I am studing Software engineering, I joined Addis Ababa University in (2011). I am now a second year student and a member of DSC( Developers Student Club) which is undergraduate students community. Prior to that, I ued to have tours with my friends.</p>
-                </td>
-            <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </td>
-        </tr>
-        <br>
-        <tr>
-            <td></td>
-                <td>
-                    <p align="center"><img src="./assets/images/friends.jpg" alt="me and my friends visiting holy place"></p>
-                </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-                <td>
-                    <p>As a student I have participated in many different clubs in order to browden my experience, like DSC, PCA, and others too. Up untill now I have not made any devolpment that have big inpact on the society, but my plan is to make a better society that have a good understanding of technology and it's impact by comming up with a solution from the knowledge that I have gathered through my life of learning. </p>
-                </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-                <td>
-                    <p align="center"><img src="./assets/images/bro2.jpg" alt="Picture with my brother"></p>
-                </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-                <td>
-                    <big>
-                        <label for="">Some Things About My Family</label>
-                    </big>
-                   
-                    <p>As I mentioned earlier my mother name is Azalech Ababa and she is a language teacher (specifically Amharic language). She has been teaching about 30 years now, so she is my roll model. As for father, his name is Fekadu Tefera and he is health officier, so most of the time he spent his time working in rural areas. Therefor we don't have family time more rapidly. But you should also have to know that I have a twin brother whose name is Natnael Fekadu. Since his age is the same as my age, me my brother are currently learning in Addis Ababa Universiy and he is studying medicine in order to be a doctor. As a whole I didn't have a sister, but I have many cousins that are like sisters to me. Finally I just want to say that my family are the parents that any kid could ever wish for. I Love My Family.</p>
-                    <p>You can follow my current work in AAIT on GitHub. In my free time, I love spending time with my family and reading books. Thank you so much for reading.</p><br>
-                    <hr color="red">
-                </td>
-            <td></td>
-        </tr>
-    </table>
+<div class="container">
+    <div class="text-container mt-lg-5 mb-lg-5">
+        <p >I am originally from small town called Balile, Eastern Hararge Ethiopia, and am a proud member of solvers group from second year students. After highschool, I am studing Software engineering, I joined Addis Ababa University in (2011). I am now a second year student and a member of DSC( Developers Student Club) which is undergraduate students community. Prior to that, I ued to have tours with my friends.</p>
+    </div>
+    <div class="img-container m-lg-auto">
+        <img src="./assets/images/friends.jpg" alt="me and my friends visiting holy place">
+    </div>
+    <div class="text-container mt-lg-5 mb-lg-5">
+        <p>As a student I have participated in many different clubs in order to browden my experience, like DSC, PCA, and others too. Up untill now I have not made any devolpment that have big inpact on the society, but my plan is to make a better society that have a good understanding of technology and it's impact by comming up with a solution from the knowledge that I have gathered through my life of learning. </p>
+    </div>
+    <div class="img-container m-lg-auto">
+        <img src="./assets/images/bro2.jpg" alt="Picture with my brother">
+    </div>
+    <div class="text-container mt-lg-5 mb-lg-5">
+        <h2>Some Things About My Family</h2>
+        <p>As I mentioned earlier my mother name is Azalech Ababa and she is a language teacher (specifically Amharic language). She has been teaching about 30 years now, so she is my roll model. As for father, his name is Fekadu Tefera and he is health officier, so most of the time he spent his time working in rural areas. Therefor we don't have family time more rapidly. But you should also have to know that I have a twin brother whose name is Natnael Fekadu. Since his age is the same as my age, me my brother are currently learning in Addis Ababa Universiy and he is studying medicine in order to be a doctor. As a whole I didn't have a sister, but I have many cousins that are like sisters to me. Finally I just want to say that my family are the parents that any kid could ever wish for. I Love My Family.</p>
+        <p>You can follow my current work in AAIT on GitHub. Thank you so much for reading.</p><br>
+    </div>
+</div>
+<!-- The image in about me -->
+<div class="parrallex">
+    <div class="about-container">
+        <span class="text-about">
+        Get in touch
+        </span>
+    </div>
+</div>
 
-<!-- Table for Exprience -->
-        <table>
-            <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                <td>
-                    <table cellspacing="40px">
-                        <tr>
-                            <td>
-                                <h2>Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                                <br><br><br><br><br><br><br><br><br><br></br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            </td>
-                                <td>
-                                    <img src="./assets/images/New Moon_18px.png" alt="bold circular icon"><br>
-                                    &nbsp;<img src="./assets/images/vr.PNG" alt=" vertical line"><br>
-                                    <img src="./assets/images/Thin Circle_18px.png" alt="circular icon"><br>
-                                    &nbsp;<img src="./assets/images/vr.PNG" alt="vertical line"><br>
-                                    <img src="./assets/images/Thin Circle_18px.png" alt="circular icon"><br>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                </td>
-                            <td>
-                                <table bgcolor="white">
-                                    <tr>
-                                        <td>
-                                            <h4>Web Designer and Developer</h4>
-                                            <p>AAIT</p>
-                                            <p>March 2020 – Present  Addis Ababa &nbsp;</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <br>
-                                <table bgcolor="white">
-                                    <tr>
-                                        <td>
-                                            <h4>Mobile App Programer</h4>
-                                            <p>AAIT</p>
-                                            <p>October 2019 – Present  Addis Ababa </p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <br>
-                                <table bgcolor="white">
-                                    <tr>
-                                        <td>
-                                            <h4>Software Developer</h4>
-                                            <p>Benafiab</p>
-                                            <p>October 2016– Present  Addis Ababa</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                <hr color="red">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-            <table background="./assets/images/flower.jpg" width="100%" height="150px">
-                <tr>
-                    <td>
-                        <h2 align="center">Get in touch</h2>
-                    </td>
-                </tr>
-            </table>
 <!-- Contact me Part -->
-            <table>
-                <tr>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                    <td>
-                        <table cellspacing="30px" cellpadding="30px">
-                            <tr>
-                                <td>
-                                    <h3>Hi there &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                                    <br></br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container mt-lg-3" id="form">
+    <div class="row">
+        <div class="col-lg-5 col-12" >
+            <h3 class="welcome">Hi there</h3>
+            <p class="welcome-text">This form is for contacting me about speaking engagements, opportunities to work together, or mentorship requests. This is NOT a form for requesting help.</p>
+        </div>
+        <div class="col-lg-7">
+            <div class="container">
+                <form action="">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="fname" id="fname" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="memail" id="memail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea  class="form-control" name="" id="" rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <a class="btn btn-outline-secondary mr-1 btn-sm" href="#" target="_blank">
+                        <i class="fas fa-play-circle mr-1"></i> send
+                    </a>                
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-                                </td>
-                                <td>
-                                    <form action="mailto:se.abenezer.fekadu@gmail.com" method="post" enctype="utf-8">
-                                        <input type="text" name="name" size="55px" placeholder="Name" pattern="[A-Za-z]{4,8}" title="Enter 4 to 8 characters" required ><br><br>
-                                        <input type="email" name="email" size=55px"" placeholder="Email" required title="Enter tour email"><br><br>
-                                        <textarea name="details" id="" cols="50" rows="10" placeholder="Message" ></textarea><br><br>
-                                        <input type="submit" value="send">
-                                    </form>  
-                                        <br>
-                                       <a href="https://twitter.com/login?lang=en"> <img src="./assets/images/Twitter_31px.png" alt="twitter icon"></a> DM Me <br>
-                                        <a href="https://web.telegram.org/"><img src="./assets/images/Telegram App_31px.png" alt="telegram icon"></a> Discuss on Telegram <br>
-                                        <a href="https://github.com/Abenezer-Fekadu/First-Html-Practice.git"><img src="./assets/images/GitHub_31px.png" alt="git hub icon"></a> Get Accesss <br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <hr color="red">
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-
-
-        <!-- <p align="center"><a href=""><img src="./assets/images/Double Right_30px_1.png" alt=""></a></p> -->
 <!-- Footer part License -->
-        <br>
-        <p align="center">
-            <a href="https://uk.practicallaw.thomsonreuters.com/4-503-9222?transitionType=Default&contextData=(sc.Default)&firstPage=true&bhcp=1">LICENSE:CC-BY-SA <br><br>
-                <img src="./assets/images/Creative Commons_21px.png" alt="creative commons icon"><img src="./assets/images/User Engagement Male_21px.png" alt="user engagment icon"><img src="./assets/images/Copyleft_21px.png" alt="copyright icon">
-            </a>
+<div class="container">
+    <footer class="website-footer">
+        <p class="licensed">
+            <a href="">LICENSE: CC-BY-SA <br> <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i> </a><br>  
         </p>
-<!-- bottom links -->
-        <p align="center">&#169;Abenezer Fekadu, 2020 · Made with <a href="">&#9825;</a>, <a href=""><img src="./assets/images/Code Fork_30px.png" alt=" code fork icon"></a>, the <a href="">blogdown</a> package, and the <a href="">Academic theme</a> for <a href="">Hugo</a>.</p>
-        <p align="right"><a href=""><img src="./assets/images/Chevron Up_30px.png" alt="up arrow icon"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p class="footer-text">
+                © Abenezer Fekadu, 2020 · Made with <i class="far fa-heart" style="color: #06805E"></i>, <a href="#" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, the <a href="#" target="_blank"><i class="fab fa-r-project"></i> </a><a href="" target="_blank" >blogdown</a> package, and the 
+                <a href="" target="_blank">Academic theme</a> for <a href="" target="_blank">Hugo</a>.
+        <span class="float-right" aria-hidden="true">
+            <a href="#" id="back_to_top">
+                <span class="up_icon">
+                    <i class="fas fa-chevron-up fa-2x"></i>
+                </span>
+            </a>
+        </span>
+        </p>
+    </footer>
+</div>
 
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

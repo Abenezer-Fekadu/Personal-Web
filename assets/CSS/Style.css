@@ -10,18 +10,26 @@ body {
   font-family: sans-serif;
 }
 #nav {
+  font-family: sans-serif;
   background-color: #f0f7fa;
   color: #088b60;
   text-transform: uppercase;
   padding-right: 9em;
-  margin-bottom: 3em;
   min-height: 100px;
-  font-size: 20px;
 }
 #nav-list li a {
   color: #252c31;
 }
 #nav-list li a:hover {
+  color: #088b60;
+}
+.navbar-brand {
+  color: black;
+  font-size: 26px;
+  padding-left: 9em;
+  /* font-weight: bold; */
+}
+.navbar-brand:hover {
   color: #088b60;
 }
 .line {
@@ -43,6 +51,7 @@ body {
 /* Profile */
 #m {
   /* background: yellow; */
+  margin-top: 3em;
   margin-bottom: 5em;
   padding-top: 2em;
 }
@@ -52,7 +61,7 @@ body {
 /* Image */
 .profile-img img {
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .profile-body {
   text-align: center;
@@ -67,7 +76,6 @@ body {
   margin-bottom: 10px;
   color: #727777;
 }
-
 .profile-link a {
   font-size: 21px;
   color: #0c7a15;
@@ -81,24 +89,60 @@ body {
   /* background: blue; */
   padding-left: 85px;
 }
+.personal-text {
+  font-size: 21px;
+}
 .personal-text a {
   color: #088b60;
   text-decoration: none;
 }
+.education h2 {
+  font-size: 26px;
+}
+.education p {
+  font-size: 19px;
+}
+.education div {
+  padding-left: 30px;
+}
 .education div span {
+  font-size: 16px;
   color: #727777;
+}
+.interest-title {
+  font-size: 26px;
+}
+.interest ul li {
+  font-size: 19px;
 }
 
 /* Carousel */
-.carousel {
+
+#my-slide {
+  width: 100%;
+  height: 325px;
   margin-bottom: 3em;
 }
-#carousel-slider {
+.caro-text {
+  font-size: 26px;
+}
+.carousel-item img {
   height: 325px;
-  min-height: 325px;
-  background-color: rgb(64, 64, 64);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./assets/images/flower.jpg");
+  width: 100%;
+  /* object-fit: cover; */
+}
+.carousel-caption a {
+  display: inline-block;
+  font-family: lora;
+  text-align: center;
+  font-style: italic;
+  text-transform: lowercase;
+  padding: 0.6em 2.1em;
+  border-radius: 0;
+  border: 1px solid transparent;
+}
+.carousel-item .btn {
+  color: rgb(4, 79, 58);
 }
 #text-center {
   text-align: center;
@@ -124,10 +168,12 @@ body {
 /* Blog And Tasks */
 
 .blog-title {
+  padding-left: 4em;
   font-size: 21px;
   text-transform: uppercase;
 }
 .task-title {
+  padding-left: 4em;
   font-size: 21px;
   text-transform: uppercase;
 }
@@ -148,6 +194,9 @@ body {
 .blog span a:hover {
   text-decoration: underline;
   color: #06805e;
+}
+#logo {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .time {
   font-size: 14px;
@@ -237,4 +286,48 @@ body {
 .footer-text a:hover {
   color: #175352;
   text-decoration: underline;
+}
+
+/* About  Page*/
+.parrallex {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.parrallex {
+  text-align: center;
+  padding-top: 130px;
+  height: 300px;
+  background-image: url(/assets/images/flower.jpg);
+  min-height: 100%;
+}
+.about-container {
+  color: white;
+  font-size: 47px;
+}
+.text-container {
+  font-size: 21px;
+  padding: 0 3em;
+}
+.text-container h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.img-container {
+  text-align: center;
+}
+.img-container img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.welcome {
+  font-size: 48px;
+}
+.welcome-text {
+  font-size: 27;
+}
+.form-group {
+  margin: 1em 0;
 }
