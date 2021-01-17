@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
+  font-family: "karla", serif;
 }
 body {
   background-color: #f0f7fa;
@@ -14,7 +14,7 @@ body {
   background-color: #f0f7fa;
   color: #088b60;
   text-transform: uppercase;
-  padding-right: 9em;
+  /* padding-right: 9em; */
   min-height: 100px;
 }
 #nav-list li a {
@@ -26,7 +26,7 @@ body {
 .navbar-brand {
   color: black;
   font-size: 26px;
-  padding-left: 9em;
+  /* padding-left: 9em; */
   /* font-weight: bold; */
 }
 .navbar-brand:hover {
@@ -347,4 +347,70 @@ body {
 .page-link:hover {
   background: #004346;
   color: white;
+}
+
+/* Gallery */
+
+/* Resume */
+.wrapper {
+  width: auto;
+  height: auto;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  background: #06805e;
+  border-radius: 50px;
+  position: relative;
+  margin: 20px auto 0 auto;
+}
+.circle-empty {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #06805e;
+  border-radius: 50px;
+  position: relative;
+  margin: 20px auto 0 auto;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 100px;
+  background: #06805e;
+  margin: 20px auto 0 auto;
+}
+.card {
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transform: translate(0, 0);
+}
+.card-link {
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+}
+.card-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+.parrallex2 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.parrallex2 {
+  text-align: center;
+  padding-top: 130px;
+  height: 200px;
+  background-image: url(/assets/images/flower.jpg);
+  min-height: 100%;
 }
