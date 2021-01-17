@@ -60,6 +60,7 @@ body {
 }
 /* Image */
 .profile-img img {
+  text-align: center;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -204,7 +205,6 @@ body {
 }
 .link-categories {
   font-size: 14px;
-  padding-left: 1em;
 }
 .task a {
   color: black;
@@ -330,4 +330,21 @@ body {
 }
 .form-group {
   margin: 1em 0;
+}
+
+/* Blog Page */
+.blog-text {
+  text-align: center;
+  padding: 50px 0;
+  text-transform: capitalize;
+}
+.page-link {
+  color: #004346;
+  background-color: #f0f7fa;
+  border: 1px solid #004346;
+  padding: 0.5rem 1rem;
+}
+.page-link:hover {
+  background: #004346;
+  color: white;
 }
