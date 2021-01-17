@@ -26,8 +26,6 @@ body {
 .navbar-brand {
   color: black;
   font-size: 26px;
-  /* padding-left: 9em; */
-  /* font-weight: bold; */
 }
 .navbar-brand:hover {
   color: #088b60;
@@ -350,6 +348,38 @@ body {
 }
 
 /* Gallery */
+.card-img-top {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  opacity: 1;
+  display: block;
+  /* width: 100%; */
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.hoverText {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+}
+.card:hover .hoverText {
+  opacity: 0.6;
+}
+.caption {
+  background-color: white;
+  color: white;
+  font-size: 30px;
+  padding-top: 30%;
+  border-radius: 6px;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
 
 /* Resume */
 .wrapper {
