@@ -2,12 +2,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "karla", serif;
+  font-family: "karla";
 }
 body {
   background-color: #f0f7fa;
   font-size: 16px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 #nav {
   font-family: sans-serif;
@@ -26,6 +26,9 @@ body {
 .navbar-brand {
   color: black;
   font-size: 26px;
+}
+#nav-space {
+  padding: 0 167px;
 }
 .navbar-brand:hover {
   color: #088b60;
@@ -48,52 +51,48 @@ body {
 
 /* Profile */
 #m {
-  /* background: yellow; */
   margin-top: 3em;
-  margin-bottom: 5em;
   padding-top: 2em;
 }
 .rev {
   flex-direction: row-reverse;
 }
 /* Image */
-.profile-img img {
-  text-align: center;
+#profile-picture {
+  width: 270px;
+  height: 270px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-.profile-body {
-  text-align: center;
-  margin-right: 85px;
 }
 .profile-title {
   font-size: 26px;
   margin: 20px 0px 10px 0px;
 }
 .profile-text {
-  font-size: 18px;
   margin-bottom: 10px;
-  color: #727777;
 }
 .profile-link a {
   font-size: 21px;
   color: #0c7a15;
-  text-decoration: none;
 }
-.personal {
-  padding-left: 85px;
-  /* background: white; */
+.medias a {
+  font-size: 21px;
+  color: #06805e;
 }
-.my {
-  /* background: blue; */
-  padding-left: 85px;
+.profile-link:hover {
+  text-decoration: underline;
+}
+.profile-link a:hover {
+  color: #004346;
 }
 .personal-text {
   font-size: 21px;
 }
 .personal-text a {
   color: #088b60;
-  text-decoration: none;
+}
+.personal-text a:hover {
+  text-decoration: underline;
 }
 .education h2 {
   font-size: 26px;
@@ -106,7 +105,6 @@ body {
 }
 .education div span {
   font-size: 16px;
-  color: #727777;
 }
 .interest-title {
   font-size: 26px;
@@ -120,7 +118,13 @@ body {
 #my-slide {
   width: 100%;
   height: 325px;
-  margin-bottom: 3em;
+  margin-bottom: 100px;
+}
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+.carousel-indicators li {
+  background-color: #004346;
 }
 .caro-text {
   font-size: 26px;
@@ -143,12 +147,12 @@ body {
 .carousel-item .btn {
   color: rgb(4, 79, 58);
 }
-#text-center {
-  text-align: center;
-  margin: 0 auto 0 auto;
+.carousel-item img {
+  background-color: rgb(64, 64, 64);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
-#text-left {
-  text-align: left;
+#text-center {
+  margin: 0 auto 0 auto;
 }
 #text-right {
   text-align: right;
@@ -167,17 +171,15 @@ body {
 /* Blog And Tasks */
 
 .blog-title {
-  padding-left: 4em;
   font-size: 21px;
   text-transform: uppercase;
 }
 .task-title {
-  padding-left: 4em;
   font-size: 21px;
   text-transform: uppercase;
 }
 .blog a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: black;
 }
 .blog h4 {
@@ -199,20 +201,19 @@ body {
 }
 .time {
   font-size: 14px;
-  color: #727777;
+  /* color: #727777; */
 }
 .link-categories {
   font-size: 14px;
 }
 .task a {
   color: black;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .task h4 {
   font-size: 25px;
 }
 .task h4 a:hover {
-  text-decoration: none;
   color: #088b60;
 }
 .task span a {
@@ -225,7 +226,7 @@ body {
 }
 .place {
   font-size: 16px;
-  color: #727777;
+  /* color: #727777; */
 }
 .btn-adds {
   margin-top: 1em;
@@ -285,6 +286,9 @@ body {
   color: #175352;
   text-decoration: underline;
 }
+.right-icon {
+  padding-right: 0;
+}
 
 /* About  Page*/
 .parrallex {
@@ -299,7 +303,7 @@ body {
   text-align: center;
   padding-top: 130px;
   height: 300px;
-  background-image: url(/assets/images/flower.jpg);
+  background-image: url(/assets/images/flower8.jpg);
   min-height: 100%;
 }
 .about-container {
@@ -308,7 +312,6 @@ body {
 }
 .text-container {
   font-size: 21px;
-  padding: 0 3em;
 }
 .text-container h2 {
   font-size: 26px;
@@ -327,6 +330,7 @@ body {
   font-size: 27;
 }
 .form-group {
+  border-color: #06805e;
   margin: 1em 0;
 }
 
@@ -441,6 +445,9 @@ body {
   text-align: center;
   padding-top: 130px;
   height: 200px;
-  background-image: url(/assets/images/flower.jpg);
+  background-image: url(/assets/images/flower8.jpg);
   min-height: 100%;
+}
+.wow {
+  font-size: 50px;
 }
