@@ -1,0 +1,62 @@
+@media (max-width: 992px) {
+  /* Home Page */
+  #nav-space {
+    padding: 0;
+  }
+  .navbar-brand {
+    padding-left: 30%;
+  }
+  .profile-img img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .profile-text,
+  .personal-text,
+  .see-all {
+    font-size: 16px;
+  }
+  .interest-title,
+  .education h2,
+  .caro-text,
+  .title-text {
+    font-size: 20px;
+  }
+  .interest ul li,
+  .education span {
+    font-size: 15px;
+  }
+  .section-topic {
+    font-size: 36px;
+  }
+  .blog-title,
+  .task-title {
+    font-size: 19px;
+  }
+  .btn-outline-secondary,
+  .lecensed,
+  .footer-text {
+    font-size: 14px;
+  }
+  /* About Page */
+  .text-about,
+  .welcome {
+    font-size: 34px;
+  }
+  .text-container {
+    font-size: 16px;
+  }
+  .text-container h2 {
+    font-size: 20px;
+  }
+  .text-end img {
+    max-width: 80px;
+  }
+  .welcome-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    padding-left: 20%;
+  }
+}

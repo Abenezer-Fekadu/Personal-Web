@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Abenezer F./Gallery</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Karla&family=Lora&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="icon" href="./assets/images/Xbox A_50px.png" type="image/png">
     <link rel="stylesheet" href="./assets/CSS/Style.css">
+    <link rel="stylesheet" href="./assets/CSS/media.css">
 
 </head>
 <body">
@@ -50,13 +52,13 @@
 <div class="container blog-text">
     <div class="row">
         <div class="col-12">
-            <h1>Pictures</h1>
+            <h1 class="title-text">Pictures</h1>
         </div>
     </div>
 </div>
 
 <!-- This is for the red option on the top -->
-<div class="containe-fluid">
+<!-- <div class="containe-fluid">
     <div class="row justify-content-center">
         <div class="col-9 text-center">
             <div class="btn-group">
@@ -70,38 +72,57 @@
             </div>
         </div>
     </div>
-</div>
-
+</div> -->
 
 <!-- This is for the gallary layout -->
 <div class="container-fluid mt-5">
     <div class="row justify-content-center">
         <div class=" col-d-12 col-5 col-md-5 col-lg-3">
             <div class="card">
-                <img class="card-img-top img-fluid" src="./assets/images/little bro.jpg" alt="brother pics">
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="./assets/images/little bro.jpg" alt="brother pics">
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Mothers Graduation Day</h5>
                     <p class="card-text text-muted">we were exited to congrat her, this was a pic on that day.</p>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top img-fluid" src="./assets/images/ceremony.jpg" alt="brother pics">
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="./assets/images/ceremony.jpg" alt="brother pics">
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Celebrating Epiphany</h5>
                     <p class="card-text text-muted">I was with my brother and friends to celebrate epiphany at Meskel Square.</p>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top img-fluid" src="./assets/images/babile friends.jpg" alt="brother pics">
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="./assets/images/hangout.jpg"alt="family photo" >
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Get Together</h5>
-                    <p class="card-text">Me and my friends were having fun and chiling together.</p>
+                    <h5 class="card-title">Journey Together</h5>
+                    <p class="card-text text-muted">We were having a tour around the capital city A.A</p>
                 </div>
             </div>
         </div>   
-        <div class="col-d-12 col-4 col-md-4 col-lg-3">
+        <div class="col-d-12 col-5 col-md-5 col-lg-3">
             <div class="card">
-                <img class="card-img-top img-fluid" src="./assets/images/family.jpg"alt="family photo" >
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="./assets/images/family.jpg"alt="family photo" >
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Family Gathering</h5>
                     <p class="card-text">
@@ -110,44 +131,62 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top img-fluid" src="./assets/images/family.jpg"alt="family photo" >
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="./assets/images/chill.jpg"alt="family photo" >
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                </div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Family Gathering</h5>
-                    <p class="card-text text-muted">The whole family was there having a greate time together.</p>
+                    <h5 class="card-title">Exploring Day</h5>
+                    <p class="card-text text-muted">On this day me and my brother going all around the city.</p>
                 </div>
             </div>
             <div class="card">
                 <div class="card-container">
-                    <img class="card-img-top img-fluid" src="./assets/images/hangout.jpg"alt="family photo" >
+                    <img class="card-img-top img-fluid" src="./assets/images/babile friends.jpg" alt="brother pics">
                     <div class="hoverText">
-                        <div class="caption">
-                            <i style="font-size:50px; color:red" class="fa fa-paw" aria-hidden="true"></i>
-                        </div>
+                        <i class="fas fa-link"></i>
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Journey Together</h5>
-                    <p class="card-text text-muted">We were having a tour around the capital city A.A</p>
+                    <h5 class="card-title">Get Together</h5>
+                    <p class="card-text">Me and my friends were having fun and chiling together.</p>
                 </div>
             </div>
         </div>
-        <div class="col-d-12 col-lg-3">
+        <div class="col-d-12 col-5 col-md-5 col-lg-3">
             <div class="card">
-                <img src="assets/images/friends.jpg" class="card-img-top" alt="me and my brother">
+                <div class="card-container">
+                    <img class="card-img-top img-fluid" src="assets/images/friends.jpg" alt="">
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Religious Journey</h5>
                     <p class="card-text text-muted">We were visiting ancient religious places together.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="assets/images/birthday.jpg" class="card-img-top" alt="me and my brother">
+                <div class="card-container">
+                    <img src="assets/images/birthday.jpg" class="card-img-top img-fluid" alt="me and my brother">
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Birthday</h5>
                     <p class="card-text text-muted">This was a birth day photo for my nephiws in the city. </p>
                 </div>
             </div>
             <div class="card">
-                <img src="assets/images/bro friends.jpg" class="card-img-top" alt="me and my brother">
+                <div class="card-container">
+                    <img src="assets/images/bro friends.jpg" class="card-img-top" alt="me and my brother">
+                    <div class="hoverText">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Hanging Out</h5>
                     <p class="card-text text-muted">This day was when i met brothers friends from class.</p>

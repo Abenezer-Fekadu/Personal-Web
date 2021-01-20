@@ -10,11 +10,11 @@ body {
   /* font-family: sans-serif; */
 }
 #nav {
+  font-size: 19px;
   font-family: sans-serif;
   background-color: #f0f7fa;
   color: #088b60;
   text-transform: uppercase;
-  /* padding-right: 9em; */
   min-height: 100px;
 }
 #nav-list li a {
@@ -26,6 +26,9 @@ body {
 .navbar-brand {
   color: black;
   font-size: 26px;
+}
+.navbar-toggler-icon {
+  background: black;
 }
 #nav-space {
   padding: 0 167px;
@@ -65,6 +68,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .profile-title {
+  font-family: lora;
   font-size: 26px;
   margin: 20px 0px 10px 0px;
 }
@@ -76,8 +80,13 @@ body {
   color: #0c7a15;
 }
 .medias a {
-  font-size: 21px;
+  padding: 5px;
+  font-size: 35px;
   color: #06805e;
+}
+.medias a:hover {
+  color: #004346;
+  /* font-size: 3px; */
 }
 .profile-link:hover {
   text-decoration: underline;
@@ -95,6 +104,7 @@ body {
   text-decoration: underline;
 }
 .education h2 {
+  font-family: lora;
   font-size: 26px;
 }
 .education p {
@@ -107,6 +117,7 @@ body {
   font-size: 16px;
 }
 .interest-title {
+  font-family: lora;
   font-size: 26px;
 }
 .interest ul li {
@@ -138,11 +149,15 @@ body {
   display: inline-block;
   font-family: lora;
   text-align: center;
-  font-style: italic;
+  /* font-style: italic; */
   text-transform: lowercase;
   padding: 0.6em 2.1em;
   border-radius: 0;
   border: 1px solid transparent;
+  border: none;
+}
+.carousel-caption a:hover {
+  background: rgba(210, 210, 210);
 }
 .carousel-item .btn {
   color: rgb(4, 79, 58);
@@ -166,24 +181,31 @@ body {
   text-align: center;
 }
 .section-title h1 {
+  font-family: lora;
   font-size: 48px;
 }
 /* Blog And Tasks */
 
 .blog-title {
+  letter-spacing: 4px;
+  color: #252c31;
   font-size: 21px;
   text-transform: uppercase;
 }
 .task-title {
+  letter-spacing: 4px;
+  color: #252c31;
   font-size: 21px;
   text-transform: uppercase;
 }
 .blog a {
-  /* text-decoration: none; */
   color: black;
 }
 .blog h4 {
   font-size: 26px;
+}
+.title-text {
+  font-family: lora;
 }
 .blog h4 a:hover {
   color: #088b60;
@@ -201,16 +223,15 @@ body {
 }
 .time {
   font-size: 14px;
-  /* color: #727777; */
 }
 .link-categories {
   font-size: 14px;
 }
 .task a {
   color: black;
-  /* text-decoration: none; */
 }
 .task h4 {
+  font-family: lora;
   font-size: 25px;
 }
 .task h4 a:hover {
@@ -287,9 +308,8 @@ body {
   text-decoration: underline;
 }
 .right-icon {
-  padding-right: 0;
+  color: #088b60;
 }
-
 /* About  Page*/
 .parrallex {
   position: relative;
@@ -327,7 +347,7 @@ body {
   font-size: 48px;
 }
 .welcome-text {
-  font-size: 27;
+  font-size: 24px;
 }
 .form-group {
   border-color: #06805e;
@@ -339,6 +359,12 @@ body {
   text-align: center;
   padding: 50px 0;
   text-transform: capitalize;
+}
+div h3 {
+  font-size: 33px;
+}
+.blog-text h1 {
+  font-size: 47px;
 }
 .page-link {
   color: #004346;
@@ -355,34 +381,30 @@ body {
 .card-img-top {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-.card-img-top {
-  opacity: 1;
-  display: block;
-  /* width: 100%; */
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+.card-container {
+  position: relative;
+}
+.card-title {
+  font-family: lora;
+  font-weight: bold;
 }
 .hoverText {
   position: absolute;
+  background-color: white;
+  padding-top: 30%;
   top: 0;
   height: 100%;
   transition: 0.5s ease;
   opacity: 0;
   width: 100%;
   text-align: center;
+  justify-content: center;
+}
+.hoverText i {
+  font-size: 40px;
 }
 .card:hover .hoverText {
   opacity: 0.6;
-}
-.caption {
-  background-color: white;
-  color: white;
-  font-size: 30px;
-  padding-top: 30%;
-  border-radius: 6px;
-  height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder;
 }
 
 /* Resume */
@@ -424,8 +446,16 @@ body {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
   transform: translate(0, 0);
 }
+.card-resume-title {
+  font-family: sans-serif;
+  font-size: 21px;
+  color: #757575;
+  font-weight: bold;
+}
 .card-link {
-  margin-bottom: 10px;
+  font-family: lora;
+  font-size: 19px;
+  line-height: 30px;
   color: black;
   text-decoration: none;
 }
@@ -448,6 +478,7 @@ body {
   background-image: url(/assets/images/flower8.jpg);
   min-height: 100%;
 }
-.wow {
+.exp {
+  font-family: lora;
   font-size: 50px;
 }
