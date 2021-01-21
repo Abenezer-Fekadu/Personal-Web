@@ -1,14 +1,26 @@
+@media (max-width: 768px) {
+  /* Home page */
+  .profile-img img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .btn-outline-secondary {
+    margin-bottom: 7px;
+  }
+  /* Blog And Talk Page */
+  .text-end img {
+    max-width: 80px;
+  }
+}
 @media (max-width: 992px) {
   /* Home Page */
   #nav-space {
     padding: 0;
   }
+
   .navbar-brand {
-    padding-left: 30%;
-  }
-  .profile-img img {
-    max-width: 200px;
-    max-height: 200px;
+    padding-left: 35%;
+    font-size: 20px;
   }
   .profile-text,
   .personal-text,
@@ -48,15 +60,42 @@
   .text-container h2 {
     font-size: 20px;
   }
-  .text-end img {
-    max-width: 80px;
-  }
+
   .welcome-text {
     font-size: 18px;
+  }
+  /* Blog page */
+  .blog-text h1 {
+    font-size: 40px;
+  }
+  /* Talk Page */
+  /* Gallery */
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  /* Resume */
+  .exp {
+    font-size: 36px;
+  }
+  .card-resume-title,
+  .card-link {
+    font-size: 14px;
+  }
+  .t {
+    font-size: 12px;
+  }
+  .licensed {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 600px) {
   .navbar-brand {
-    padding-left: 20%;
+    padding-left: 30%;
+  }
+  .img-container img {
+    width: 200px;
   }
 }

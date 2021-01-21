@@ -7,7 +7,6 @@
 body {
   background-color: #f0f7fa;
   font-size: 16px;
-  /* font-family: sans-serif; */
 }
 #nav {
   font-size: 19px;
@@ -15,20 +14,39 @@ body {
   background-color: #f0f7fa;
   color: #088b60;
   text-transform: uppercase;
-  min-height: 100px;
+  min-height: 100px !important;
+}
+#nav-list {
+  background-color: #f0f7fa;
 }
 #nav-list li a {
+  letter-spacing: 2px;
+  text-align: center;
   color: #252c31;
 }
 #nav-list li a:hover {
   color: #088b60;
 }
 .navbar-brand {
+  text-align: center;
   color: black;
   font-size: 26px;
 }
-.navbar-toggler-icon {
-  background: black;
+.navbar-brand button {
+  overflow: visible;
+}
+.navbar-toggler {
+  position: relative;
+  border-radius: 25rem;
+  z-index: 1030;
+  margin-top: 20px;
+  font-size: 25px;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.fa-bars {
+  color: black !important;
 }
 #nav-space {
   padding: 0 167px;
@@ -39,17 +57,22 @@ body {
 .line {
   padding: 0.6em;
 }
-.line::after {
+.line a {
+  position: relative;
+}
+.line a:after {
   content: "";
+  position: absolute;
   background: #0c7a15;
   display: block;
   width: 0;
+  left: 50%;
   height: 2px;
-  transition: width 0.3s;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
 }
-.line:hover::after {
+.line a:hover:after {
   width: 100%;
-  transition: width 0.3s;
+  left: 0%;
 }
 
 /* Profile */
@@ -86,7 +109,6 @@ body {
 }
 .medias a:hover {
   color: #004346;
-  /* font-size: 3px; */
 }
 .profile-link:hover {
   text-decoration: underline;
@@ -123,9 +145,7 @@ body {
 .interest ul li {
   font-size: 19px;
 }
-
 /* Carousel */
-
 #my-slide {
   width: 100%;
   height: 325px;
@@ -143,13 +163,11 @@ body {
 .carousel-item img {
   height: 325px;
   width: 100%;
-  /* object-fit: cover; */
 }
 .carousel-caption a {
   display: inline-block;
   font-family: lora;
   text-align: center;
-  /* font-style: italic; */
   text-transform: lowercase;
   padding: 0.6em 2.1em;
   border-radius: 0;
@@ -173,7 +191,6 @@ body {
   text-align: right;
   margin: 0 0 0 auto;
 }
-
 /* Section */
 .section-title {
   padding: 0px 0 20px 0;
@@ -247,7 +264,6 @@ body {
 }
 .place {
   font-size: 16px;
-  /* color: #727777; */
 }
 .btn-adds {
   margin-top: 1em;
@@ -281,7 +297,6 @@ body {
   color: #175352;
   text-decoration: underline;
 }
-
 /* Footer */
 .licensed {
   font-size: 16px;
@@ -308,6 +323,7 @@ body {
   text-decoration: underline;
 }
 .right-icon {
+  float: right;
   color: #088b60;
 }
 /* About  Page*/
@@ -353,7 +369,6 @@ body {
   border-color: #06805e;
   margin: 1em 0;
 }
-
 /* Blog Page */
 .blog-text {
   text-align: center;
@@ -361,9 +376,12 @@ body {
   text-transform: capitalize;
 }
 div h3 {
+  color: #17273b;
+  letter-spacing: 1px;
   font-size: 33px;
 }
 .blog-text h1 {
+  color: #17273b;
   font-size: 47px;
 }
 .page-link {
@@ -376,7 +394,6 @@ div h3 {
   background: #004346;
   color: white;
 }
-
 /* Gallery */
 .card-img-top {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -406,13 +423,11 @@ div h3 {
 .card:hover .hoverText {
   opacity: 0.6;
 }
-
 /* Resume */
 .wrapper {
   width: auto;
   height: auto;
 }
-
 .circle {
   width: 25px;
   height: 25px;
@@ -429,7 +444,6 @@ div h3 {
   position: relative;
   margin: 20px auto 0 auto;
 }
-
 .vertical-line {
   width: 1px;
   height: 100px;
